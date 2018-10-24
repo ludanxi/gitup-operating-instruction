@@ -1,0 +1,25 @@
+多人协作：
+git clone url...(远程仓库)
+被拒绝...
+添加ssh
+再次git clone url...
+本地进行文件处理....修改...添加....删除....
+远程进行修改....删除.....(此时本地远程仓库不同)
+此时出现报错 rejected，使用git pull....
+弹出commit 蓝色字体 esc.... :wq
+重新拉下来，本地文件已经发生了改变
+再次push
+...成功
+
+
+git checkout -b dev   --->新分支 dev
+推送分支
+echo "21323">>2.txt
+git add .
+git commit -m "分支提交"
+git push origin dev ---> origin 
+提交 ....切换或主分支
+git checkout master
+git merge dev  ----> 合并分支  分支被提交
+git push 全部提交
+
